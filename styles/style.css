@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins&family=Rubik&display=swap');
+
+body{
+    background-color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+/* ----------------
+header part 
+-------------------*/
+.container{
+    width: 1100px;
+    height: 600px;
+    background-color: #161616;
+    margin: 50px 140px 50px 140px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 30px;
+}
+.img-banner{
+    margin: 33px 79px 0 0;
+    width: 481px;
+    height: 565px;
+}
+.heading{
+    color: #FFFFFF;
+    margin: 60px 24px 60px 100px;
+    width: 450px;
+    height: 450px;
+}
+.heading h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.heading p{
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 420px;
+    height: 78px;
+}
+.heading a{
+    text-decoration: none;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 187px;
+    height: 56px;
+    padding: 16px 25px;
+}
+/* header part end */
+/* main part */
+.content{
+    margin: 50px 140px 50px 140px;
+    display: flex;
+    gap: 15px;
+}
+/* menu section */
+.menu-section{
+    background-color: #161616;
+    width: 270px;
+    height: 270px;
+    display: block;
+    border-radius: 10px;
+}
+.btn{
+    margin: 12px 24px;
+    border-radius: 10px;
+    width: 210px;
+    height: 54px;
+    background-color: #FFFFFF;
+    color: #161616;
+    font-size: 20px;
+    font-weight: 500;
+    position :relative;
+}
+.btn-1{
+    margin-top: 30px;
+}
+.selected{
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+/* Upcomming matchs schedule*/
+.up-matchs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.match{
+    width: 215px;
+    height: 140px;
+    border: 1px solid #F4F4F4;
+    border-radius: 10px;
+    padding: 45px 25px;
+}
+.flag{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+.time{
+    text-align: center;
+}
+/* footer part start*/
+.footer{
+    height: 180px;
+    width: 100%;
+    background-color: #161616;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 0;
+}
+.footer h2{
+    font-size: 35px;
+}
+.icon a{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0 10px;
+}
+.footer-list{
+    margin-top: 40px;
+}
+.footer-list a{
+    text-decoration: none;
+    color: #B9B9B9;
+    margin: 0 30px;
+    font-size: 14px;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 80%;
+}
