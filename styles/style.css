@@ -78,6 +78,10 @@ header part
     font-weight: 500;
     position :relative;
 }
+.btn a{
+    text-decoration: none;
+    color: #161616;
+}
 .btn-1{
     margin-top: 30px;
 }
